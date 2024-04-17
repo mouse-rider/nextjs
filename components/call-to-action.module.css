@@ -1,0 +1,49 @@
+.frameChild {
+  height: 8px;
+  width: 48px;
+  position: relative;
+}
+.nextButtonAreaInner {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-35xl) 0 var(--padding-33xl-5);
+}
+.next {
+  width: 37px;
+  position: relative;
+  font-size: var(--button-size);
+  line-height: 24px;
+  display: inline-block;
+  font-family: var(--button);
+  color: var(--color-white);
+  text-align: center;
+  min-width: 37px;
+}
+.button {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-sm) var(--padding-40xl);
+  background-color: var(--color-cornflowerblue);
+  border-radius: var(--br-5xs);
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.button,
+.callToAction,
+.nextButtonArea {
+  display: flex;
+  align-items: flex-start;
+}
+.nextButtonArea {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-24xl);
+}
+.callToAction {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 var(--padding-3xl);
+}

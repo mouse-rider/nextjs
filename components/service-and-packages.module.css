@@ -1,0 +1,169 @@
+.ourService {
+  position: relative;
+  line-height: 24px;
+  text-transform: capitalize;
+  display: inline-block;
+  min-width: 89px;
+}
+.serviceTitleContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+}
+.viewAll {
+  width: 52px;
+  position: relative;
+  font-size: var(--body-2-medium-size);
+  line-height: 24px;
+  font-weight: 500;
+  color: var(--color-cornflowerblue);
+  text-align: right;
+  display: inline-block;
+  min-width: 52px;
+}
+.medicationIcons,
+.serviceHeader {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.medicationIcons {
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.ourPackage {
+  position: relative;
+  font-size: var(--button-size);
+  line-height: 24px;
+  text-transform: capitalize;
+  display: inline-block;
+  color: var(--color-darkslategray);
+  text-align: left;
+  min-width: 98px;
+}
+.medicalPackage {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xl);
+  min-width: 101px;
+}
+.toothIcon {
+  width: 28px;
+  height: 28px;
+  position: relative;
+}
+.toothHeartbeatPair {
+  border-radius: var(--br-base);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 20px rgba(131, 131, 131, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-xl);
+}
+.heartbeatIcon {
+  width: 28px;
+  height: 28px;
+  position: relative;
+}
+.toothHeartbeatPair1 {
+  border-radius: var(--br-base);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 20px rgba(131, 131, 131, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-xl);
+}
+.iconPairContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-lg);
+}
+.toothCare {
+  display: inline-block;
+  min-width: 70px;
+}
+.heart,
+.toothCare {
+  flex: 1;
+  position: relative;
+  line-height: 20px;
+  font-weight: 600;
+}
+.dentalHeartIcons,
+.dentalHeartLabels {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.dentalHeartIcons {
+  flex-direction: column;
+  gap: var(--gap-xs);
+}
+.viewAll1 {
+  width: 52px;
+  position: relative;
+  line-height: 24px;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 52px;
+}
+.viewAllPackages {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-12xs);
+  text-align: right;
+  font-size: var(--body-2-medium-size);
+  color: var(--color-cornflowerblue);
+}
+.dentalAndHeartPackage {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+  min-width: 101px;
+}
+.packageOptions,
+.serviceAndPackages {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.packageOptions {
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: var(--gap-base);
+  text-align: center;
+  font-size: var(--font-size-xs);
+  color: var(--color-lightslategray);
+}
+.serviceAndPackages {
+  flex-direction: column;
+  gap: var(--gap-3xs);
+  text-align: left;
+  font-size: var(--button-size);
+  color: var(--color-darkslategray);
+  font-family: var(--button);
+}

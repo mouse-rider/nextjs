@@ -1,0 +1,118 @@
+.banner,
+.banner1 {
+  border-radius: var(--br-base);
+  overflow: hidden;
+}
+.banner {
+  height: 147px;
+  width: 255px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: -8px;
+  left: calc(50% - 127.5px);
+  background-color: rgba(103, 152, 225, 0.4);
+  flex-shrink: 0;
+}
+.banner1 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  background-color: rgba(103, 152, 225, 0.7);
+  z-index: 1;
+}
+.homePage,
+.illustrationIcon {
+  margin: 0 !important;
+  position: absolute;
+}
+.illustrationIcon {
+  height: 181px;
+  width: 145px;
+  top: -42px;
+  right: -16px;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 4;
+}
+.homePage {
+  width: 295px;
+  height: 147px;
+  top: 174px;
+  left: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.searchNormalIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  min-height: 24px;
+}
+.searchChild {
+  width: 53px;
+  border: 0;
+  outline: 0;
+  background-color: transparent;
+  height: 21px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+  box-sizing: border-box;
+  font-family: var(--button);
+  font-weight: 600;
+  font-size: var(--button-size);
+  color: var(--color-silver);
+}
+.search,
+.searchArea {
+  flex-direction: row;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.search {
+  flex: 1;
+  border-radius: var(--br-base);
+  background-color: var(--color-white);
+  border: 1px solid #e6e6e6;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-sm) 16px;
+  gap: var(--gap-xs);
+}
+.searchArea {
+  align-self: stretch;
+  padding: 0 0 10px;
+  top: 0;
+  z-index: 99;
+  position: sticky;
+}
+.consultationPreviews,
+.home,
+.searchArea {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.consultationPreviews {
+  align-self: stretch;
+  height: 160px;
+  flex-direction: row;
+  gap: var(--gap-base);
+}
+.home {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-gray);
+  overflow: hidden;
+  flex-direction: column;
+  padding: 44px 23px 43px var(--padding-5xl);
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+  line-height: normal;
+  letter-spacing: normal;
+}
